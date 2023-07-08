@@ -8,8 +8,7 @@ namespace FizzBuzz.Console.Interfaces
 {
     public interface IFizzBuzzRule
     {
-        int Number { get; set; }
-        bool IsMatch();
+        bool IsMatch(int number);
         string GetOutput();
     }
 }

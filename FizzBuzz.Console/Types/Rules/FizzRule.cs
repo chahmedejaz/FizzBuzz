@@ -9,16 +9,9 @@ namespace FizzBuzz.Console.Types.Rules
 {
     public class FizzRule : IFizzBuzzRule
     {
-        public int Number { get; set; }
-
-        public FizzRule(int number)
+        public bool IsMatch(int number)
         {
-            Number = number;
-        }
-
-        public bool IsMatch()
-        {
-            return Number % Constants.FizzDivisor == 0;
+            return number % Constants.FizzDivisor == 0;
         }
 
         public string GetOutput()
