@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{34D386C2-E339-44A0-901D-90CAFE6130BB}</ProjectGuid>
+    <ProjectGuid>{53042809-968B-4760-B213-062257187D02}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Console_App</RootNamespace>
-    <AssemblyName>Console App</AssemblyName>
+    <RootNamespace>FizzBuzz.Console</RootNamespace>
+    <AssemblyName>FizzBuzz.Console</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
