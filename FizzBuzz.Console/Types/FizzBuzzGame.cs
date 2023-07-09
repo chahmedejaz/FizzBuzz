@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace FizzBuzz.Console.Types
 {
-    internal class FizzBuzzGame : IFizzBuzzGame
+    public class FizzBuzzGame : IFizzBuzzGame
     {
         public int RangeStartNumber { get; set; }
         public int RangeEndNumber { get; set; }
