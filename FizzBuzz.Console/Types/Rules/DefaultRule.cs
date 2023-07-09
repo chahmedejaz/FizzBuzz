@@ -7,12 +7,12 @@ using System.Threading.Tasks;
 
 namespace FizzBuzz.Console.Types.Rules
 {
-    internal class DefaultRule : IFizzBuzzRule
+    public class DefaultRule : IFizzBuzzRule
     {
 
         public bool IsMatch(int number)
         {
-            return true;
+            return !(number % Constants.FizzDivisor == 0 || number % Constants.BuzzDivisor == 0);
         }
 
         public string GetOutput()
